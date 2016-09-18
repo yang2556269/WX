@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+span.emotion{width:42px; height:20px; background:url(__IMG__/icon.gif) no-repeat 2px 2px; padding-left:20px; cursor:pointer}
+span.emotion:hover{background-position:2px -28px}
+</style>
+</head>
+<body>
+<textarea id="saytext" name="saytext"></textarea>
+<span class="emotion">表情</span>
+</body>
+<script type="text/javascript" src="__JS__/jquery.qqFace.js"></script>
+<script type="text/javascript" src="__JS__/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+$('.emotion').qqFace({
+id : 'facebox',
+assign:'saytext', 
+path:'__IMG__/arclist/'	//表情存放的路径
+});		
+});
+</script>
+</html>

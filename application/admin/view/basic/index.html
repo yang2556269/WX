@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>添加公众号</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link href="__CSS__/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+  <link href="__CSS__/font-awesome.min.css?v=4.4.0" rel="stylesheet">
+  <link href="__CSS__/animate.min.css" rel="stylesheet">
+  <link href="__CSS__/plugins/iCheck/custom.css" rel="stylesheet">
+  <link href="__CSS__/style.min.css?v=4.1.0" rel="stylesheet">
+  <!-- Sweet Alert -->
+  <link href="__CSS__/plugins/sweetalert/sweetalert.css" rel="stylesheet">
+
+	<style type="text/css">
+		.one{
+			width: 800px;
+			margin: 20px auto;
+
+		}
+		.fenlei{
+			float: left;
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+		.fenlei img{
+			width: 114px;
+		}
+		.fenlei ul{
+			list-style:none;
+		}
+		.fenlei ul li {
+			width: 114px;
+			text-align: center;
+			list-style:none;
+		}
+		.fenlei ul  a{
+			text-decoration:none;
+		}
+		.fenlei ul  a:link{
+			color:black;
+		}
+		.fenlei ul  a:visited {
+			color:black;
+		}
+		.fenlei ul  a:hover{
+			color:green;
+		}
+	</style>
+</head>
+<body>
+<div class="one">
+	<div class="fenlei">
+		<ul>
+			<a href="<?php echo url('basic/huifu') ?>">
+			<li><img src="__IMG__/wenbenhuifu.png"></li>
+			<li><p>关注回复</p></li>
+			</a>
+		</ul>
+	</div>
+	<div class="fenlei">
+			<ul>
+				<a href="<?php echo url('basic/tuwen') ?>">
+				<li><img src="__IMG__/tuwenhuifu.png"></li>
+				<li><p>图文回复</p></li>
+				</a>
+		</ul>
+	</div>
+	<div class="fenlei">
+			<ul>
+				<a href="<?php echo url('basic/keyword') ?>">
+				<li><img src="__IMG__/zidingyicaidan.png"></li>
+				<li><p>关键字回复</p></li>
+				</a>
+		</ul>
+	</div>
+	<div class="fenlei">
+			<ul>
+				<a href="<?php echo url('basic/muban') ?>">
+				<li><img src="__IMG__/moban.png"></li>
+				<li><p>模板消息</p></li>
+				</a>
+		</ul>
+	</div>
+</div>
+</body>
+</html>
